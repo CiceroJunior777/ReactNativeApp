@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 
-export default function TelaInicial({navigation}) {
+export default function Inicial({navigation}) {
   return (
     <View style={styles.container}>
         <Text style={styles.paragraph}>Bem Vindo</Text>
